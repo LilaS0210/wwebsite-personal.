@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Saya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="gedung instiki.jpg" alt="Gambar 1" class="header-img">
+    <img src="pkkmb 2024.jpeg" alt="Gambar 2" class="header-img">
+    <img src="BALI.jpeg.webp" alt="Gambar 3" class="header-img">
+    <img src="bali1.jpg" alt="Gambar 4" class="header-img">
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#" class="active" onclick="showSlide(0)"><i class="fas fa-home"></i> Beranda</a></li>
+        <li><a href="#" onclick="showSlide(1)"><i class="fas fa-graduation-cap"></i> Pendidikan</a></li>
+        <li><a href="#" onclick="showSlide(2)"><i class="fas fa-users"></i> Keluarga</a></li>
+        <li><a href="#" onclick="showSlide(3)"><i class="fas fa-user"></i> Tentang Saya</a></li>
+    </ul>
+</nav>
+
+<div class="slide-container">
+    <div class="slide active">
+        <div class="content">
+            <h2>Beranda</h2>
+            <p>Selamat datang di website pribadi saya! Di sini, Anda akan menemukan informasi tentang diri saya, perjalanan pendidikan saya, keluarga saya, dan banyak hal menarik lainnya.</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li><strong>TK:</strong> TK Widya Dharma 1 Apuan, 2011 - 2012</li>
+                <li><strong>SD:</strong> SD Negeri 1 Apuan, 2012 - 2017</li>
+                <li><strong>SMP:</strong> SMP Negeri 3 Baturiti, 2018 - 2021</li>
+                <li><strong>SMA:</strong> SMA Negeri 1 Penebel, 2021 - 2024</li>
+                <li><strong>Kampus:</strong> INSTIKI Indonesia, Jurusan Teknologi Informasi, 2024 - Sekarang</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="content">
+            <h2>Keluarga</h2>
+            <div class="image-display">
+                <img src="foto keluarga1.jpg" alt="Foto Keluarga">
+            </div>
+            <p>Saya berasal dari keluarga yang penuh kasih dan mendukung. Kami selalu meluangkan waktu bersama untuk menjaga keharmonisan. Anggota keluarga saya terdiri dari ayah, ibu, kakak perempuan, saya, dan adik laki-laki.</p>
+        </div>
+    </div>
+
+    <div class="slide tentang-saya">
+        <div class="content">
+            <h2>Tentang Saya</h2>
+            <div class="image-display">
+                <img src="foto saya.jpg" alt="Foto Saya">
+            </div>
+            <p>Nama saya adalah I Made Tegar Maha Putra Utama dengan NIM 2401010443. Saya seorang mahasiswa jurusan Teknologi Informasi di INSTIKI Indonesia. Saya sangat tertarik dengan pengembangan teknologi dan memiliki minat besar dalam bidang pemrograman.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Website Pribadi Saya. Semua hak cipta dilindungi.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
